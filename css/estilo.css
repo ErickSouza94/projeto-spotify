@@ -8,11 +8,12 @@ body {
 
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 
 nav.navbar-transparente {
-    background: rgba(0,0,0,0.6);
+    background: rgb(0, 0, 0);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -63,13 +64,58 @@ nav.navbar-transparente {
     background-color: white;
     color: black;
 }
+.caixa {
+    padding: 20px 0;
+}
 
+#servicos {
+    background: white;   
+}
+
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos p {
+    color: white;
+}
+
+.rotacionar {
+    padding-top: 30px;
+    padding-left: 80px;
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+}
+
+/*--------Tipografia---------*/
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
 }
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
